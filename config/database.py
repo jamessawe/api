@@ -1,4 +1,6 @@
-from pymongo import  MongoClient
+#import statements
+from pymongo import MongoClient
 
-connection = MongoClient("mongodb://localhost:27017/test")
-#connection = MongoClient()
+#create BD connection
+#connection = MongoClient("mongodb://localhost:27017/test")
+connection = MongoClient()
